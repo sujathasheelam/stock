@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stockAccounting.Testcases.TestngStockItem">
+        <methods>
+          <include name="stockItem_Creation"/>
+          <include name="stockAcc_Launch"/>
+          <include name="stockAcc_Close"/>
+          <include name="stockAcc_Login"/>
+          <include name="stockAcc_Logout"/>
+        </methods>
+      </class> <!-- com.stockAccounting.Testcases.TestngStockItem -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
